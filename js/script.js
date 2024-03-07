@@ -43,6 +43,8 @@ let elButton1 = document.querySelector('.button-1')
 let elButton2 = document.querySelector('.button-2')
 console.log(elNameSurname, elKilometers, elAge, elButton1, elButton2); 
 
+let elSelectedTicket = document.querySelector('.selected-ticket');
+
 elButton1.addEventListener('click', function(){ 
    /*  console.log("hai cliccato il bottone"); */
     let name = elNameSurname.value;
