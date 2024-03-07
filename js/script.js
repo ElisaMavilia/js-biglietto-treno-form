@@ -34,4 +34,15 @@ else if (paxAge > 65){
 }
 else {
     document.getElementById(`title`).innerHTML = `Il prezzo del biglietto è: ${noDiscountedTicket.toFixed(2)} €`;
-} */ */ */
+} */ 
+
+let elNameSurname = document.getElementById("name-surname");
+let elKilometers = document.getElementById("kilometers");
+let elAge = document.querySelector(".age");
+let elButton1 = document.querySelector(".button-1")
+let elButton2 = document.querySelector(".button-2")
+console.log(elNameSurname, elKilometers, elAge, elButton1, elButton2); 
+
+elButton1.addEventListener('click', function(){ 
+    console.log("hai cliccato il bottone");
+ })
