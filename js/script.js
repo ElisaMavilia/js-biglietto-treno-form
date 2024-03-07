@@ -1,4 +1,4 @@
-//TICKET//
+/* //TICKET//
 let kilometer = parseInt(prompt("Inserisci il numero di chilometri da percorrere"));
 let paxAge = parseInt(prompt("Inserisci la tua età"));
 console.log(kilometer,paxAge);
@@ -13,7 +13,7 @@ console.log(discount1);
 let discountedTicket1 = (ticket - discount1);
 /* Prezzo finale biglietto 1
 in decimali */
-let finalPrice1 = discountedTicket1;
+/* let finalPrice1 = discountedTicket1;
 console.log(finalPrice1);
 
 // TICKET SENIOR//
@@ -22,7 +22,7 @@ console.log(discount2);
 let discountedTicket2 = (ticket - discount2);
 /* Prezzo finale biglietto 2
 in decimali */
-let finalPrice2 = discountedTicket2.toFixed(2).replace(/\./, ",");
+/* let finalPrice2 = discountedTicket2.toFixed(2).replace(/\./, ",");
 console.log(finalPrice2);
 
 // CONDITION //
@@ -34,4 +34,4 @@ else if (paxAge > 65){
 }
 else {
     document.getElementById(`title`).innerHTML = `Il prezzo del biglietto è: ${noDiscountedTicket.toFixed(2)} €`;
-}
+} */ */ */
