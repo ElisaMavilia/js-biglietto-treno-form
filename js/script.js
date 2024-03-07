@@ -52,6 +52,7 @@ elButton1.addEventListener('click', function(){
     let age = elAge.value;
     console.log(name, kilometers, age);
     elSelectedTicket.classList.remove('d-none');
+    document.getElementById('pax').innerHTML = name;
  })
 
  elButton2.addEventListener('click', function(){ 
