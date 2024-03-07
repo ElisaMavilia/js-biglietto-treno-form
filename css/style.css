@@ -1,8 +1,24 @@
+.debug{
+    border: 1px solid red;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
 .container{
-    width: 1000px;
-    height: 800px;
-    background-color: aqua;
+    width: 1200px;
+    height: 1000px;
     border: 1px solid red;
     margin:auto;
     margin-top: 100px;
 }
+
+.fill-out{
+    width: 900px;
+    height: 350px;
+    border-radius: 20px;
+    margin:auto;
+    margin-top: 50px;
+}
+
