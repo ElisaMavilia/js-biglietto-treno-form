@@ -20,5 +20,18 @@ body{
     border-radius: 20px;
     margin:auto;
     margin-top: 50px;
+    
+    
 }
 
+.single-form{
+   width: calc(100% / 3);
+}
+
+.form-label{
+    font-size: 0.8em;
+}
+
+.form-control,.form-select{
+    font-size: 0.6em;
+}
