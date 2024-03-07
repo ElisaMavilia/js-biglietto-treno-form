@@ -14,7 +14,7 @@ body{
     margin-top: 100px;
 }
 
-.fill-out{
+.fill-out,.ticket{
     width: 900px;
     height: 350px;
     border-radius: 20px;
@@ -22,14 +22,47 @@ body{
     margin-top: 50px;
 }
 
+.fill-out-area{
+    margin-top: 30px;
+}
+
 .single-form{
    width: calc(100% / 3);
 }
 
-.form-label{
+.form-label,.btn{
     font-size: 0.8em;
 }
 
 .form-control,.form-select{
     font-size: 0.6em;
+}
+
+.buttons-area{
+    margin-top: 100px;
+}
+
+.ticket-left-text{
+    width: 30%;
+    height: 250px;
+}
+
+.ticket-rigth{
+    width: 60%;
+    height: 250px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table thead tr th{
+    font-size: 0.4em;
+    border-style: none;
+}
+
+.table tbody tr td{
+    font-size: 0.4em;
+    padding-top: 50px;
+    border-style: none;
 }
