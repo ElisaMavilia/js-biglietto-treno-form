@@ -6,10 +6,6 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
-.wrapper{
-    height: 100vh;
-}
-
 .container{
     width: 1200px;
     height: 1000px;
